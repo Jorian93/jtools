@@ -1,4 +1,4 @@
-package cn.com.ncsi.pap.common.cache;
+package cn.jorian.common.jtools.cache;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

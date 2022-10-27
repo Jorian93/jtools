@@ -1,5 +1,5 @@
 
-package cn.com.ncsi.pap.common.utils;
+package cn.jorian.common.jtools.utils;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;

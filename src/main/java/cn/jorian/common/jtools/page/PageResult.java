@@ -1,9 +1,9 @@
-package cn.com.ncsi.pap.common.entity;
-
-import java.util.List;
+package cn.jorian.common.jtools.entity;
 
 import lombok.Builder;
 import lombok.Data;
+
+import java.util.List;
 
 /**
  * 分页查询返回结果

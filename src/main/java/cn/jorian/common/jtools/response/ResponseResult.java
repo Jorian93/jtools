@@ -1,13 +1,11 @@
-package cn.com.ncsi.pap.common.response;
+package cn.jorian.common.jtools.response;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.*;
+import org.springframework.http.HttpStatus;
 
 import java.io.Serializable;
-import java.time.LocalDateTime;
-
-import org.springframework.http.HttpStatus;
 
 
 /**

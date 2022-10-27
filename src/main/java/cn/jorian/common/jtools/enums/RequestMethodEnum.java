@@ -1,5 +1,5 @@
 
-package cn.com.ncsi.pap.common.utils.enums;
+package cn.jorian.common.jtools.utils.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

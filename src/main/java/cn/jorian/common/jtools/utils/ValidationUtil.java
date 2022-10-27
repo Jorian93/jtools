@@ -1,6 +1,6 @@
-package cn.com.ncsi.pap.common.utils;
+package cn.jorian.common.jtools.utils;
 
-import cn.com.ncsi.pap.common.exception.BadRequestException;
+import cn.jorian.common.jtools.exception.BadRequestException;
 
 /**
  * 

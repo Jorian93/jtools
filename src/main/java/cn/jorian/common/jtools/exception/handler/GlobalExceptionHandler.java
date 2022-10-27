@@ -1,10 +1,11 @@
 
-package cn.com.ncsi.pap.common.exception.handler;
+package cn.jorian.common.jtools.exception.handler;
 
-import static org.springframework.http.HttpStatus.NOT_FOUND;
-
-import java.util.Objects;
-
+import cn.jorian.common.jtools.exception.BadRequestException;
+import cn.jorian.common.jtools.exception.EntityExistException;
+import cn.jorian.common.jtools.exception.EntityNotFoundException;
+import cn.jorian.common.jtools.utils.ThrowableUtil;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.BadCredentialsException;
@@ -12,11 +13,9 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import cn.com.ncsi.pap.common.exception.BadRequestException;
-import cn.com.ncsi.pap.common.exception.EntityExistException;
-import cn.com.ncsi.pap.common.exception.EntityNotFoundException;
-import cn.com.ncsi.pap.common.utils.ThrowableUtil;
-import lombok.extern.slf4j.Slf4j;
+import java.util.Objects;
+
+import static org.springframework.http.HttpStatus.NOT_FOUND;
 
 /**
  * 

@@ -1,4 +1,4 @@
-package cn.com.ncsi.pap.common.entity;
+package cn.jorian.common.jtools.entity;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

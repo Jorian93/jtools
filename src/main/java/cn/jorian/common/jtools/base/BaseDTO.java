@@ -1,12 +1,11 @@
-package cn.com.ncsi.pap.common.base;
+package cn.jorian.common.jtools.base;
+
+import lombok.Data;
+import org.apache.commons.lang3.builder.ToStringBuilder;
 
 import java.io.Serializable;
 import java.lang.reflect.Field;
 import java.time.LocalDateTime;
-
-import org.apache.commons.lang3.builder.ToStringBuilder;
-
-import lombok.Data;
 
 /**
  * 

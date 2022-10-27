@@ -1,12 +1,11 @@
-package cn.com.ncsi.pap.common.exception;
+package cn.jorian.common.jtools.exception;
 
+import cn.jorian.common.jtools.response.ResponseCode;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
-
-import cn.com.ncsi.pap.common.response.ResponseCode;
 
 /**
  * 

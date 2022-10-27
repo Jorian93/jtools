@@ -1,5 +1,5 @@
 
-package cn.com.ncsi.pap.common.base;
+package cn.jorian.common.jtools.base;
 
 import java.util.List;
 

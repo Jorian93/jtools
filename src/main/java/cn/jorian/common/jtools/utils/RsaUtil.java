@@ -1,6 +1,7 @@
-package cn.com.ncsi.pap.common.utils;
+package cn.jorian.common.jtools.utils;
 
 import org.apache.commons.codec.binary.Base64;
+
 import javax.crypto.Cipher;
 import java.security.*;
 import java.security.interfaces.RSAPrivateKey;

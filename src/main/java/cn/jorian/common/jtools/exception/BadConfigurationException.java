@@ -1,5 +1,5 @@
 
-package cn.com.ncsi.pap.common.exception;
+package cn.jorian.common.jtools.exception;
 
 /**
  * description 统一关于错误配置信息 异常

@@ -1,17 +1,11 @@
 
 package cn.jorian.common.jtools.annotation.rest;
 
-import java.lang.annotation.Documented;
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
-
 import org.springframework.core.annotation.AliasFor;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import cn.com.ncsi.pap.common.annotation.AnonymousAccess;
+import java.lang.annotation.*;
 
 /**
  * Annotation for mapping HTTP {@code PUT} requests onto specific handler

@@ -1,8 +1,9 @@
-package cn.com.ncsi.pap.common.cache;
+package cn.jorian.common.jtools.cache;
 
-import java.io.Serializable;
 import lombok.Builder;
 import lombok.Data;
+
+import java.io.Serializable;
 
 /**
  *  

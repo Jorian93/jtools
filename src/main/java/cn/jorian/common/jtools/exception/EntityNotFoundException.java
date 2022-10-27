@@ -1,5 +1,5 @@
 
-package cn.com.ncsi.pap.common.exception;
+package cn.jorian.common.jtools.exception;
 
 import org.springframework.util.StringUtils;
 

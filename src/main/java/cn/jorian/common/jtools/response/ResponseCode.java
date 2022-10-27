@@ -1,8 +1,9 @@
-package cn.com.ncsi.pap.common.response;
-import springfox.documentation.builders.ResponseMessageBuilder;
-import springfox.documentation.service.ResponseMessage;
+package cn.jorian.common.jtools.response;
+
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
+import springfox.documentation.builders.ResponseMessageBuilder;
+import springfox.documentation.service.ResponseMessage;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,12 +1,14 @@
 
-package cn.com.ncsi.pap.common.utils;
+package cn.jorian.common.jtools.utils;
 
+import cn.jorian.common.jtools.entity.PageResult;
 import org.apache.poi.ss.formula.functions.T;
 import org.springframework.data.domain.Page;
 
-import cn.com.ncsi.pap.common.entity.PageResult;
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 

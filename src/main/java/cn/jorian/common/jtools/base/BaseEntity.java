@@ -1,20 +1,17 @@
-package cn.com.ncsi.pap.common.entity;
-
-import java.io.Serializable;
-import java.lang.reflect.Field;
-import java.time.LocalDateTime;
-
-import javax.persistence.Column;
-import javax.persistence.MappedSuperclass;
+package cn.jorian.common.jtools.entity;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
-
+import lombok.Data;
 import org.apache.commons.lang.builder.ToStringBuilder;
 
-import lombok.Data;
+import javax.persistence.Column;
+import javax.persistence.MappedSuperclass;
+import java.io.Serializable;
+import java.lang.reflect.Field;
+import java.time.LocalDateTime;
 
 /**
  * 

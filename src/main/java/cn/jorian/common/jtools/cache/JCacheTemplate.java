@@ -1,13 +1,12 @@
-package cn.com.ncsi.pap.common.cache;
+package cn.jorian.common.jtools.cache;
+
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Component;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentSkipListMap;
-
-import org.springframework.stereotype.Component;
-
-import lombok.extern.slf4j.Slf4j;
 
 
 /**

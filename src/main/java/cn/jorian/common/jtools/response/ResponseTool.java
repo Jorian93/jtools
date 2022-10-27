@@ -1,13 +1,9 @@
-package cn.com.ncsi.pap.common.response;
-
-import java.io.IOException;
-
-import javax.servlet.http.HttpServletResponse;
+package cn.jorian.common.jtools.response;
 
 import com.alibaba.fastjson.JSON;
 
-import cn.com.ncsi.pap.common.response.ResponseCode;
-import cn.com.ncsi.pap.common.response.ResponseResult;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 
 /**
  * 

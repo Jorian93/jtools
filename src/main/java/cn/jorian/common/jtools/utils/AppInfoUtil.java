@@ -1,8 +1,6 @@
-package cn.com.ncsi.pap.common.utils;
+package cn.jorian.common.jtools.utils;
 
 import org.springframework.context.ConfigurableApplicationContext;
-
-
 import org.springframework.core.env.Environment;
 /**
  * 
